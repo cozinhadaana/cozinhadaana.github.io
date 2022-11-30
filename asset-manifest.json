@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac770e40.css",
+    "main.js": "/static/js/main.ee898e4e.js",
+    "static/media/yakisoba.jpeg": "/static/media/yakisoba.11487af3ebeb6b6c06d9.jpeg",
+    "static/media/saladadefeijaocomcarneseca.jpg": "/static/media/saladadefeijaocomcarneseca.8a8b018179a94f61f697.jpg",
+    "static/media/lasanhabolonhesa.jpg": "/static/media/lasanhabolonhesa.aa77596c9ab753689925.jpg",
+    "static/media/costelatambaquicomarrozdetacaca.png": "/static/media/costelatambaquicomarrozdetacaca.31da58ee01beb84eff2c.png",
+    "static/media/lasanhadeberinjela.png": "/static/media/lasanhadeberinjela.299638329a597a18678a.png",
+    "static/media/frangocomcremedecebola.png": "/static/media/frangocomcremedecebola.819fed742fae2e922f76.png",
+    "static/media/sopav2.png": "/static/media/sopav2.9ae2cc00315ddffa0029.png",
+    "static/media/coxadefrango.png": "/static/media/coxadefrango.fa98c24f157a235a9314.png",
+    "static/media/filedearuana.png": "/static/media/filedearuana.a916ca22df30ef08911e.png",
+    "static/media/frangogrelhado.png": "/static/media/frangogrelhado.94054361ed972b8eaab9.png",
+    "static/media/carnemoidav2.png": "/static/media/carnemoidav2.910312e4c4d4777d4da3.png",
+    "static/media/frangodesfiado.png": "/static/media/frangodesfiado.b202e0f7845d49b98fb0.png",
+    "static/media/costelatambaquicomjambu.png": "/static/media/costelatambaquicomjambu.a093632c1b94682fa0e1.png",
+    "static/media/filedepirarucu.png": "/static/media/filedepirarucu.d1683f7926899560dca1.png",
+    "static/media/kaftaaomolhodetomate.png": "/static/media/kaftaaomolhodetomate.31eec56ee7f92afe8bed.png",
+    "static/media/assadodepanela.png": "/static/media/assadodepanela.ad0ce25081ad22aa1901.png",
+    "static/media/mignon_bacon_ervas.jpg": "/static/media/mignon_bacon_ervas.ef7a9e1ff919d14740c9.jpg",
+    "static/media/bifearole.jpg": "/static/media/bifearole.0d26bcd40d8939c78fa3.jpg",
+    "static/media/logo.svg": "/static/media/logo.dfe5e6853f55558a0196b1319b6b7949.svg",
+    "static/media/iscadecarne.png": "/static/media/iscadecarne.2adcd8b78a6de0ca96fb.png",
+    "static/media/frangocommolhobarbecue.jpg": "/static/media/frangocommolhobarbecue.e3c5dd86b242e3945f18.jpg",
+    "static/media/saladadebacalhau.jpg": "/static/media/saladadebacalhau.c9d23662c1d617436b42.jpg",
+    "index.html": "/index.html",
+    "main.ac770e40.css.map": "/static/css/main.ac770e40.css.map",
+    "main.ee898e4e.js.map": "/static/js/main.ee898e4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac770e40.css",
+    "static/js/main.ee898e4e.js"
+  ]
+}
