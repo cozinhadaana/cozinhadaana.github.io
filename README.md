@@ -14,7 +14,7 @@ A idea do **Cardap.io** consiste em uma plataforma (simples) ao qual o usuário 
 
 ## **ℹ️ Sobre** 
 
-SRC para o cardápio da Cozinha da Ana: Marmitas congeladas com opções saudáveis e da culinária Amazonense. Link para o Github Pages: [https://cozinhadaana.github.io/cozinhadaana/](https://cozinhadaana.github.io/cozinhadaana/)
+SRC para o cardápio da Cozinha da Ana: Marmitas congeladas com opções saudáveis e da culinária Amazonense. Link para o Github Pages: [https://cozinhadaana.github.io](https://cozinhadaana.github.io)
 
 ---
 
@@ -67,7 +67,7 @@ SRC para o cardápio da Cozinha da Ana: Marmitas congeladas com opções saudáv
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/cozinhadaana/cozinhadaana
+$ git clone https://github.com/cozinhadaana/cozinhadaana.github.io
 
 cd cozinhadaana
 npm install -g yarn

@@ -16,11 +16,13 @@ jobs:
         with:
           node-version: '16'
       - run: npm ci
-      - run: npm run build-prod
+      - run: npm run build
+      # - run: npm run build-prod
 
       - name: Init new repo in dist folder and commit generated files
         run: |
-          cd build
+          cd dist
+          # cd build
           git init
           git add -A
           git config --local user.email "humberto-xingu@live.com"
@@ -32,14 +34,13 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           # Token for the repo
-          # Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Destination branch to push changes
-          branch: gh-pagesv2
+          branch: gh-pagesvite
           # Use force push to fully overwrite the destination branch
           force: true
           # We have to push from the folder where files were generated.
           # Same were the new repo was initialized in the previous step
-          directory: ./build
+          directory: ./dist
 
 
