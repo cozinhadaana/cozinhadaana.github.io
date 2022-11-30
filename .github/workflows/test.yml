@@ -11,11 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set ownership
-        run: |
-          # this is to fix GIT not liking owner of the checkout dir
-          chown -R $(id -u):$(id -g) $PWD
-
       - name: Build static files
         uses: actions/setup-node@v2
         with:
@@ -32,6 +27,11 @@ jobs:
           git config --local user.name "HumbertoDiego"
           git config --global --add safe.directory "*"
           git commit -m 'deploy'
+
+      - name: Set ownership
+        run: |
+          # this is to fix GIT not liking owner of the checkout dir
+          chown -R $(id -u):$(id -g) $PWD
 
       - name: Force push to destination branch
         uses: ad-m/github-push-action@v0.5.0
