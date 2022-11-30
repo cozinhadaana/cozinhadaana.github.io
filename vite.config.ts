@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.png'],
-  base: '/cozinhadaana/'
+  base: 'https://cozinhadaana.github.io'
 })
