@@ -2,7 +2,7 @@
   "name": "cozinhada.ana",
   "private": true,
   "version": "0.0.1",
-  "homepage": "/cozinhadaana/",
+  "homepage": "/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
