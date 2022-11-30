@@ -28,7 +28,7 @@ jobs:
           git config --local user.name "HumbertoDiego"
           git config --global --add safe.directory "*"
           git commit -m 'deploy'
-          s -lah
+          ls -lah
 
       - name: Set ownership
         run: |
