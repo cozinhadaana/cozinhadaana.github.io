@@ -5,12 +5,16 @@
 
 </div>
 
-## **ℹ️ Sobre**
+## **ℹ️ Sobre** [autores originais]
 
 Este projeto é um teste proposto pela [Menew](https://www.menew.com.br/) para a preenchimento da vaga de Desenvolvedor Frontend Júnior.
 
 A idea do **Cardap.io** consiste em uma plataforma (simples) ao qual o usuário possa visualizar os produtos (lanches e bebidas) dos sopases cadastrados no sistema. As demais features encontram-se na seção abaixo. O layout elaborado por mim, no Figma, pode ser visualizado clicando [aqui](https://www.figma.com/file/RH6zQXx8SROVVbDb4wYNCP/Menew-Test?node-id=0%3A1).
 
+
+## **ℹ️ Sobre** 
+
+SRC para o cardápio da Cozinha da Ana: Marmitas congeladas com opções saudáveis e da culinária Amazonense. Link para o Github Pages: [https://cozinhadaana.github.io/cozinhadaana/](https://cozinhadaana.github.io/cozinhadaana/)
 
 ---
 
@@ -63,7 +67,7 @@ A idea do **Cardap.io** consiste em uma plataforma (simples) ao qual o usuário 
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/HumbertoDiego/cozinhadaana
+$ git clone https://github.com/cozinhadaana/cozinhadaana
 
 cd cozinhadaana
 npm install -g yarn
@@ -72,23 +76,14 @@ npm install -g yarn
 yarn
 yarn dev --host 0.0.0.0 --port 80
 
-# para produção:
+# para produção vite: ./dist:
 yarn build
 yarn preview --host 0.0.0.0 --port 80
-```
 
-Por fim, abra seu navegador na URL `http://localhost`
+# para produção npm: ./build
+npm ci
+npm run build-prod
+npm run start-prod
 
-```bash
-# Clone este repositório
-$ cd dist
-
-git init
-git add -A
-git commit -m "build"
-git checkout -b gh-pages
-
-git remote add origin https://github.com/cozinhadaana/cozinhadaana
-git push -u origin gh-pages
 ```
 <br>

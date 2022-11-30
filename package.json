@@ -1,15 +1,14 @@
 {
   "name": "cozinhada.ana",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "/cozinhadaana/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "start-prod": "react-scripts start",
-    "build-prod": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build-prod": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

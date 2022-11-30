@@ -17,7 +17,6 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm run build-prod
-      - run: ls -lah
 
       - name: Init new repo in dist folder and commit generated files
         run: |
@@ -28,13 +27,6 @@ jobs:
           git config --local user.name "HumbertoDiego"
           git config --global --add safe.directory "*"
           git commit -m 'deploy'
-          ls -lah
-
-      - name: Set ownership
-        run: |
-          # this is to fix GIT not liking owner of the checkout dir
-          chown -R $(id -u):$(id -g) $PWD
-          ls -lah
 
       - name: Force push to destination branch
         uses: ad-m/github-push-action@master
